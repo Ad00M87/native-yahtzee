@@ -47,6 +47,9 @@ const styles = {
     width: deviceWidth / 1.4,
     marginBottom: 10,
     backgroundColor: '#1c4412',
+    borderColor: '#000',
+    borderWidth: 5,
+    borderRadius: 10,
   },
   text: {
     fontWeight: (Platform.OS === 'ios') ? '700' : '600',
